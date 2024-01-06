@@ -25,14 +25,24 @@ Primero, clona el repositorio:
 ```bash
 git clone [URL del Repositorio]
 cd [Nombre del Repositorio]
+```
 
+Construye y ejecuta la imagen Docker:
+```bash
 docker build -t nombre_de_tu_imagen .
 docker run nombre_de_tu_imagen
+```
 
+## Configuración
+- Archivo .env: Crea un archivo .env en la raíz del proyecto con las siguientes variables:
+
+```bash
 SENDER_EMAIL=TuCorreo@gmail.com
 RECEIVER_EMAIL=Destinatario@gmail.com
 PASSWORD=TuContraseña
 ```
+
+- Archivo env.yaml: Este archivo contiene las dependencias necesarias para el entorno Conda, ya está configurado y listo para usar.
 
 ## Uso
 La aplicación se ejecuta automáticamente al iniciar el contenedor Docker. Realiza las siguientes acciones:
