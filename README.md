@@ -1,6 +1,6 @@
 # Deploy-Docker
 
-# Generador de Datos y Notificador por Correo
+# Generador de datos y notificador por correo
 
 Este proyecto es una aplicación de Python diseñada para generar datos aleatorios de usuarios, incluyendo identificaciones, país de residencia, límite de crédito, y más. Posteriormente, realiza consultas SQL en estos datos y envía los resultados seleccionados por correo electrónico.
 
@@ -32,8 +32,9 @@ docker run nombre_de_tu_imagen
 SENDER_EMAIL=TuCorreo@gmail.com
 RECEIVER_EMAIL=Destinatario@gmail.com
 PASSWORD=TuContraseña
+```
 
-Uso
+## Uso
 La aplicación se ejecuta automáticamente al iniciar el contenedor Docker. Realiza las siguientes acciones:
 
 Genera un conjunto de datos de 3000 usuarios con información aleatoria.
