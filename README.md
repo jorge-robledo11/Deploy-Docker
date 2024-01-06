@@ -23,7 +23,7 @@ Este proyecto es una aplicación de Python diseñada para generar datos aleatori
 Primero, clona el repositorio:
 
 ```bash
-git clone [URL del Repositorio](https://github.com/jorge-robledo11/Deploy-Docker.git)
+git clone https://github.com/jorge-robledo11/Deploy-Docker.git
 cd [Deploy-Docker]
 ```
 
